@@ -32,3 +32,6 @@ diamond(5) -->
 
 def diamond(size):
   pass  # delete this when you start writing your code
+
+
+#need to work on 

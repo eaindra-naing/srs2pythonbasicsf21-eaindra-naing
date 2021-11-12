@@ -6,3 +6,9 @@ For example, sumofsquares(3) should return 14, since 1 + 4 + 9 = 14.
 
 def sumofsquares(number):
   pass  # delete this line when you start defining the function
+
+
+
+
+
+#need to work on
