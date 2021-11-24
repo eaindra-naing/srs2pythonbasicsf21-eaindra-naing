@@ -13,5 +13,5 @@ if program == "1":
   print(part1.sumofsquares(n))
 
 elif program == "2":
-  s = int(input("Enter diamond size: "))
-  part2.diamond(s)
+  size = int(input("Enter diamond size: "))
+  part2.diamond(size)

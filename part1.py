@@ -6,14 +6,11 @@ For example, sumofsquares(3) should return 14, since 1 + 4 + 9 = 14.
 
 def sumofsquares(number):
   sums = []
-  while number > 0:
-    for i in range (0,number):
+  if number > 0 and number >= len(sums):
+    for i in range (0,number+1):
       sums.append (i * i)
-    print(sum(sums))
+  return (sum(sums))
 
-
-
-#not sure what i did pls fix
 
 
 
