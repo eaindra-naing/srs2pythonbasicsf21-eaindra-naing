@@ -31,16 +31,19 @@ diamond(5) -->
 """
 
 def diamond(size):
- while size > 0:
   for i in range (0, size):
     i = i+1
     print (' ' * int(size-1), '* ' * int(i))
+    if i == size:
+      i=i-1
+      print (' ' * int(size-1), '* ' * int(i))
     #size = size -1
 
 
-
-
 """
+work on more
+
+
 print (i.center(2 * size - 1))
 
 elif program == "2":
