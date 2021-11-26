@@ -28,7 +28,12 @@ diamond(5) -->
     *   *    
      * *     
       * 
-"""
+
+
+
+
+
+work on more
 
 def diamond(size):
   for i in range (0, size):
@@ -39,10 +44,7 @@ def diamond(size):
       print (' ' * int(size-1), '* ' * int(i))
     #size = size -1
 
-
-"""
-work on more
-
+<string>.center(2*size - 1)
 
 print (i.center(2 * size - 1))
 
@@ -55,4 +57,22 @@ while leg > 0:
       i = i+1 
       print (' ' * int(leg-1), '* ' * int(i))
       leg = leg-1
+      
 """
+
+
+def diamond(size):
+  ast = '*'
+  space = ' '
+  for i in range (0, size+1):
+    if i == 1:
+      print (ast)
+    elif i >= 1:
+      #x = ast * i
+      print (ast + (space * (2*i-3)) + ast)
+  if size >= i:
+      print (ast + (space * (2*i-5)) + ast)
+      i = i - 1
+
+    
+#can't figure out how to get the last few rows and center align
